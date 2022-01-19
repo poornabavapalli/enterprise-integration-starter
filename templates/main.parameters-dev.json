@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "storageAccountName": {
-      "value": "steisdevauea"
+      "value": "steisdevuks"
     },
     "storageAccountType": {
       "value": "Standard_LRS"
     },
     "logicAppAspName": {
-      "value": "plan-eis-dev-auea"
+      "value": "plan-eis-dev-uks"
     },
     "logicAppAspSku": {
       "value": {
@@ -21,20 +21,20 @@
       }
     },
     "logicAppName": {
-      "value": "logic-eis-dev-auea"
+      "value": "logic-eis-dev-uks"
     },
     "vnetName": {
-      "value": "vnet-eis-dev-auea"
+      "value": "vnet-eis-dev-uks"
     },
     "subnets": {
       "value": {
           "vnetAddressPrefix": "10.0.0.0/16",
           "defaultSnetAddressPrefix": "10.0.0.0/24",
-          "logicAppSubnetName": "snet-eis-dev-auea-logic",
+          "logicAppSubnetName": "snet-eis-dev-uks-logic",
           "logicAppsSnetAddressPrefix": "10.0.1.0/24",
-          "apimSubnetName": "snet-eis-dev-auea-apim",
+          "apimSubnetName": "snet-eis-dev-uks-apim",
           "apimSnetAddressPrefix": "10.0.2.0/24",
-          "applicationGatewaySubnetName": "snet-eis-dev-auea-agw",
+          "applicationGatewaySubnetName": "snet-eis-dev-uks-agw",
           "applicationGatewaySnetAddressPrefix": "10.0.3.0/24",
           "bastionSubnetAddressPrefix": "10.0.4.0/24"
       }
@@ -46,32 +46,32 @@
       "value": "privatelink.blob.core.windows.net"
     },
     "logicAppPrivateLinkName": {
-      "value": "pl-eis-dev-auea-logic"
+      "value": "pl-eis-dev-uks-logic"
     },
     "logicAppPrivateEndpointName": {
-      "value": "pe-eis-dev-auea-logic"
+      "value": "pe-eis-dev-uks-logic"
     },
     "storageAccountPrivateLinkName": {
-      "value": "pl-eis-dev-auea-storage"
+      "value": "pl-eis-dev-uks-storage"
     },
     "storageAccountPrivateEndpointName": {
-      "value": "pe-eis-dev-auea-storage"
+      "value": "pe-eis-dev-uks-storage"
     },
     "applicationGatewayProperties": {
       "value": {
-        "applicationGatewayName": "agw-eis-dev-auea",
+        "applicationGatewayName": "agw-eis-dev-uks",
         "tier": "Standard_v2",
         "sku": "Standard",
         "skuSize": "Standard_v2",
         "capacity": 1,
-        "subnetName": "snet-eis-dev-auea-agw",
-        "publicIpAddressName": "pip-eis-dev-auea-agw",
+        "subnetName": "snet-eis-dev-uks-agw",
+        "publicIpAddressName": "pip-eis-dev-uks-agw",
         "allocationMethod": "Static"
       }
     },
     "apimProperties": {
       "value": {
-        "apimName": "apim-eis-dev-auea",
+        "apimName": "apim-eis-dev-uks",
         "sku": {
           "name": "Developer",
           "capacity": 1

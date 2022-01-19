@@ -3,31 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vnetName": {
-      "value": "vnet-eis-dev-auea"
+      "value": "vnet-eis-dev-uks"
     },
     "subnets": {
       "value": {
           "vnetAddressPrefix": "10.0.0.0/16",
           "defaultSnetAddressPrefix": "10.0.0.0/24",
-          "logicAppSubnetName": "snet-eis-dev-auea-logic",
+          "logicAppSubnetName": "snet-eis-dev-uks-logic",
           "logicAppsSnetAddressPrefix": "10.0.1.0/24",
-          "apimSubnetName": "snet-eis-dev-auea-apim",
+          "apimSubnetName": "snet-eis-dev-uks-apim",
           "apimSnetAddressPrefix": "10.0.2.0/24",
-          "applicationGatewaySubnetName": "snet-eis-dev-auea-agw",
+          "applicationGatewaySubnetName": "snet-eis-dev-uks-agw",
           "applicationGatewaySnetAddressPrefix": "10.0.3.0/24",
           "bastionSubnetAddressPrefix": "10.0.4.0/24"
       }
     },
     "bastionProperties": {
       "value": {
-        "bastionName": "bastion-eis-dev-auea",
-        "publicIpAddressName": "pip-bastion-eis-dev-auea"
+        "bastionName": "bastion-eis-dev-uks",
+        "publicIpAddressName": "pip-bastion-eis-dev-uks"
       }
     },
     "selfHostedRunnerProperties": {
       "value": {
-        "networkInterfaceName": "nic-eis-dev-auea",
-        "vmName": "vm-runner-eis-dev-auea",
+        "networkInterfaceName": "nic-eis-dev-uks",
+        "vmName": "vm-runner-eis-dev-uks",
         "osDiskType": "Standard_LRS",
         "vmSize": "Standard_B2ms",
         "imageReference": {
